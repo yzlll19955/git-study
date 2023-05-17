@@ -11,6 +11,7 @@ from time import time
 import numpy as np
 # from sklearn.neighbors.kde import KernelDensity
 #试试对比
+# 试试对比2
 def timeit(tag, t):
     print("{}: {}s".format(tag, time() - t))
     return time()
