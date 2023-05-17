@@ -5,6 +5,7 @@ from models.pointnet2_utils import PointNetSetAbstraction,PointNetFeaturePropaga
 from pointconv_util import PointConvDensitySetAbstraction,PointConvSetAbstraction,PointConvFeaturePropagation
 #做对比
 #做对比
+#测试message文件
 class get_model(nn.Module):
     def __init__(self, num_classes):
         super(get_model, self).__init__()
