@@ -53,3 +53,4 @@ class get_loss(nn.Module):
         total_loss = F.nll_loss(pred, target)
 
         return total_loss
+#bbb
