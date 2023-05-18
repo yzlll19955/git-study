@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from models.pointnet2_utils import PointNetSetAbstraction,PointNetFeaturePropagation
 from pointconv_util import PointConvDensitySetAbstraction,PointConvSetAbstraction,PointConvFeaturePropagation
 #做对比
-#做对比
+
 #测试message文件
 #测试message文件2
 class get_model(nn.Module):
@@ -54,5 +54,6 @@ class get_loss(nn.Module):
     def forward(self, pred, target, trans_feat):
         total_loss = F.nll_loss(pred, target)
 
+#thank you
         return total_loss
 #bbb1
